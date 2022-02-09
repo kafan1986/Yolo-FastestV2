@@ -48,7 +48,7 @@ class Detector(nn.Module):
 
 if __name__ == "__main__":
     model = Detector(80, 3, False)
-    test_data = torch.rand(1, 3, 352, 352)
+    test_data = torch.rand(1, 3, 416, 352)
     torch.onnx.export(model,                    #model being run
                      test_data,                 # model input (or a tuple for multiple inputs)
                      "test.onnx",               # where to save the model (can be a file or file-like object)

@@ -75,7 +75,7 @@ def collate_fn(batch):
     return torch.stack(img), torch.cat(label, 0)
 
 class TensorDataset():
-    def __init__(self, path, img_size_width = 352, img_size_height = 352, imgaug = False):
+    def __init__(self, path, img_size_width = 416, img_size_height = 352, imgaug = False):
         assert os.path.exists(path), "%s文件路径错误或不存在" % path
 
         self.path = path

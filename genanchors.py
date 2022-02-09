@@ -110,7 +110,7 @@ def main(argv):
     parser.add_argument('--num_clusters', default = 6, type = int, 
                         help='number of clusters\n' )  
     
-    parser.add_argument('--input_width', default = 352, type = int, 
+    parser.add_argument('--input_width', default = 416, type = int, 
                         help='model input width\n' )  
 
     parser.add_argument('--input_height', default = 352, type = int, 

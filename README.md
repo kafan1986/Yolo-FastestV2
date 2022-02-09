@@ -131,7 +131,7 @@ Network|COCO mAP(0.5)|Resolution|Run Time(4xCore)|Run Time(1xCore)|FLOPs(G)|Para
   [model-configure]
   pre_weights=None          # The path to load the model, if it is none, then restart the training
   classes=80                # Number of detection categories
-  width=352                 # The width of the model input image
+  width=416                 # The width of the model input image
   height=352                # The height of the model input image
   anchor_num=3              # anchor num
   anchors=12.64,19.39, 37.88,51.48, 55.71,138.31, 126.91,78.23, 131.57,214.55, 279.92,258.87 #anchor bias

@@ -17,6 +17,6 @@ anchor_num=3
 anchors=10.35,17.31, 28.15,49.98, 62.16,98.42, 80.78,198.36, 157.74,231.62, 292.95,290.61
 
 [data-configure]
-train=/DUMMY/train.txt
-val=/DUMMY/val.txt
-names=/DUMMY/category.names
+train=DUMMY/train.txt
+val=DUMMY/val.txt
+names=DUMMY/category.names

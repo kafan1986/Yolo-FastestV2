@@ -18,7 +18,7 @@ yoloFastestv2::yoloFastestv2()
     nmsThresh = 0.25;
 
     //模型输入尺寸大小
-    inputWidth = 352;
+    inputWidth = 416;
     inputHeight = 352;
 
     //模型输入输出节点名称

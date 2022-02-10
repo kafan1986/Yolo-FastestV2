@@ -47,7 +47,7 @@ class Detector(nn.Module):
             return out_reg_2, out_obj_2, out_cls_2, out_reg_3, out_obj_3, out_cls_3
 
 if __name__ == "__main__":
-    model = Detector(80, 3, False)
+    model = Detector(2, 3, False)
     test_data = torch.rand(1, 3, 416, 352)
     torch.onnx.export(model,                    #model being run
                      test_data,                 # model input (or a tuple for multiple inputs)
